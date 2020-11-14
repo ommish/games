@@ -1,0 +1,102 @@
+@tailwind base;
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  div#root,
+  main {
+    height: 100%;
+    width: 100%;
+  }
+
+  @apply text-grey-main;
+  font-family: 'Catamaran';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply m-0;
+}
+h1 {
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-primary-dark;
+}
+h2 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply text-secondary-main;
+}
+h3 {
+  @apply text-xl;
+  @apply font-medium;
+  @apply text-primary-dark;
+}
+h4 {
+  @apply text-lg;
+  @apply font-normal;
+  @apply text-secondary-main;
+}
+h6 {
+  @apply text-base;
+  @apply font-normal;
+  @apply text-primary-dark;
+}
+
+a {
+  text-decoration: underline;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* Shared classes */
+
+.input-error-message {
+  @apply text-error-main;
+  @apply font-medium;
+  @apply text-xs;
+}
+
+/* Game specific */
+
+.dixthis {
+  body {
+    @apply text-dixthis-secondary-main;
+  }
+
+  .game-card {
+    height: 300px;
+    width: 240px;
+    transition: all 0.2s;
+    &.hover {
+      z-index: 20;
+      transform: scale(2, 2);
+    }
+  }
+
+  .input-error-message {
+    @apply text-dixthis-error-main;
+  }
+}
+
+.desert {
+  body {
+    @apply text-desert-secondary-main;
+  }
+
+  .input-error-message {
+    @apply text-desert-error-main;
+  }
+}
+
+/* Tailwind */
+
+/* @tailwind components; */
+
+@tailwind utilities;

@@ -1,0 +1,194 @@
+{
+  "i18nFeature": {
+    "selectLanguage": "言語",
+    "translate": "訳す"
+  },
+  "game": {
+    "welcomeTitle": "ようこそ！",
+    "welcomeMessage": "家族が安全な距離を保ちながら好きなゲームを楽しめるように作った物です。",
+    "newGame": "ゲーム・スタート",
+    "copyLink": "リンクをコピーする",
+    "joinGame": "参加する",
+    "joinAsPlayer": "このプレーヤとして参加する",
+    "gameLink": "リンク",
+    "goToGame": "ゲームへ",
+    "startNewGame": "新しいゲームを始める",
+    "joinAGame": "リンクでゲームを参加する",
+    "goHome": "ホームへ"
+  },
+  "validation": {
+    "fieldRequired": "入力必修",
+    "maxLengthExceeded": "最大{{max}}文字",
+    "maxExceeded": "最大{{max}}",
+    "minExceeded": "最低{{min}}",
+    "integerOnly": "整数でなければいけません"
+  },
+  "dixthis": {
+    "game": {
+      "title": "DixThis",
+      "details": "<1>Dixit</1>のオンライン・バージョン。",
+      "pointsToWin": "勝つ為に必要なポイント",
+      "pointsToWinInfo": "空白の場合は、カードが無くなるまでゲームが続く",
+      "specialCardsInfo": "写真カードで遊びたくない場合は、０にする",
+      "pg13Info": "暗いカードで遊びたくない場合は、チェックを消す",
+      "untilDeckEmpty": "カードが無くなるまで",
+      "cardsRemaining": "残りのカード",
+      "cardCount": "{{number}}枚",
+      "cardListPool": "場札",
+      "cardListHand": "手札",
+      "activeHint": "{{activePlayer}}のヒント",
+      "scoringInfo": "親: \n誰一人正確に当てていない場合、又は全員が正確に当てた場合は０点得る。若しく一人以上が正解に当てた場合は３点得る.\n子: 正解に当てた場合、２点得る. 他のプレイヤーを騙した場合、各騙されたプレイヤーの人数分の点得る。"
+    },
+    "inactiveGame": {
+      "title": "ゲーム・サスペンド",
+      "startGame": "スタート",
+      "waitingForPlayers": "{{min}}人以上必要"
+    },
+    "finishedGame": {
+      "title": "ゲーム・オーバー",
+      "clearMessage": "少ししたらこのゲームは自動にクリアーされます。"
+    },
+    "selectingHint": {
+      "activePlayerTitle": "{{playerName}}、カードとヒントを出して下さい",
+      "otherPlayerTitle": "{{playerName}}がヒントを出すまで少々お待ち下さい",
+      "hintLabel": "ヒント",
+      "submit": "提出"
+    },
+    "submittingCards": {
+      "submittingPlayersTitle": "ヒントに会うカードを選んで下さい",
+      "otherPlayersTitle": "他のプレイヤーが全員カード出すまでお待ちください",
+      "submit": "提出",
+      "ownCardError": "自分のカードは選べません!",
+      "submittedMessage": "カードが無事に提出出来ました!"
+    },
+    "guessingOriginal": {
+      "title": "元のカードを当てて見て下さい",
+      "submit": "提出",
+      "submittedMessage": "カードが無事に提出出来ました!",
+      "activePlayerMessage": "他のプレイヤーが推測している間、お待ち下さい"
+    },
+    "revealingOriginal": {
+      "guessesTitle": "このカードを当てたプレイヤー",
+      "cardPlayerLabel": "{{player}}のカード",
+      "nextRoundTime": "次のラウンド、あと{{seconds}}秒で開始"
+    },
+    "players": {
+      "title": "プレイヤー",
+      "nameLabel": "名前",
+      "removePlayer": "削除",
+      "you": "(あなた)",
+      "initialPointsLabel": "スタート・スコアー",
+      "turnOrder": "順番",
+      "pointsLabel": "スコアー"
+    },
+    "errors": {
+      "newGame": "ゲームを制作出来ませんでした",
+      "joinGame": "ゲームに参加出来ませんでした",
+      "removePlayer": "プレイヤーを削除できませんでした",
+      "selectHint": "ヒントを提出出来ませんでした",
+      "submitCard": "カードを提出出来ませんでした",
+      "startGame": "ゲームを開始出来ませんでした"
+    },
+    "playerTitles": {
+      "presidentElect": "次期大統領{{playerName}}",
+      "queen": "{{playerName}}女王",
+      "terrible": "{{playerName}}・ザ・テリブル",
+      "twentyFourth": "{{playerName}}２４世",
+      "prince": "{{playerName}}王子",
+      "emperor": "{{playerName}}天皇",
+      "conqueror": "{{playerName}}覇者",
+      "unbroken": "{{playerName}}・ザ・アンブロークン",
+      "lady": "レデイー{{playerName}}",
+      "shire": "ホビット庄の{{playerName}}",
+      "newJersey": "ニュージャージー州の誇、{{playerName}}",
+      "rulerOfGondor": "ゴンドールの王、{{playerName}}",
+      "jediMaster": "ジェダイ・マスター{{playerName}}",
+      "cheeseEater": "チーズ食の{{playerName}}",
+      "fartConnoisseur": "おなら目利きの{{playerName}}",
+      "allNatural": "オールナチュラルの{{playerName}}",
+      "firstOfHerName": "{{playerName}}１世",
+      "championOfSun": "太陽のチャンピオン、{{playerName}}",
+      "lil": "リル{{playerName}}",
+      "reverendDoctor": "レブレンド・ドクター{{playerName}}",
+      "hufflepuff": "ハッフルパフ生、{{playerName}}",
+      "goldMedalist": "オリンピック金メダるを獲得したことがない{{playerName}}",
+      "blueEyesWhite": "ブルーアイズホワイト{{playerName}}",
+      "cantBelieve": "{{playerName}}じゃないって信じられない！",
+      "hannahMontana": "ハンナ・モンタンナの第一ファン、{{playerName}}",
+      "greatIni": "ざ・グレート・{{playerName}}ィニー",
+      "thatsSo": "ザッツ・ソー・{{playerName}}"
+    }
+  },
+  "desertAdventure": {
+    "game": {
+      "title": "砂漠探検",
+      "details": "<1>海底探検</1>のオンライン・バージョン。",
+      "newGame": "ゲーム・スタート",
+      "copyLink": "リンクをコピーする",
+      "rounds": "ラウンド数",
+      "joinGame": "参加する",
+      "joinAsPlayer": "このプレーヤとして参加する",
+      "gameLink": "リンク",
+      "goToGame": "ゲームへ",
+      "startNewGame": "新しいゲームを始める",
+      "joinAGame": "リンクでゲームを参加する",
+      "goHome": "ホームへ"
+    },
+    "water": {
+      "title": "残りの水",
+      "round": "{{rounds}}回のうちの第{{round}}回目"
+    },
+    "path": {
+      "oasis": "オアシス",
+      "pointRange": "{{min}}~{{max}}点"
+    },
+    "selectDirection": {
+      "label": "方向を選んで下さい",
+      "forward": "前に進む",
+      "backward": "戻る",
+      "submit": "オッケー"
+    },
+    "rollDice": {
+      "title": "サイコロを振って下さい",
+      "submit": "オッケー",
+      "subtractTreasure": "マイナスお宝物の数({{treasureCount}})"
+    },
+    "handleSpace": {
+      "title": "どうします？",
+      "takeTreasure": "宝物を拾う",
+      "takeTreasureTitle": "宝物を手に入れる！",
+      "dropTreasure": "宝物を捨てる",
+      "dropTreasureTitle": "どっちを捨てます？",
+      "ignoreTreasure": "何もしない",
+      "ignoreTreasureTitle": "本当に何増しなくていいんですか?",
+      "submit": "オッケー"
+    },
+    "inactiveGame": {
+      "title": "ゲーム・サスペンド",
+      "startGame": "スタート",
+      "waitingForPlayers": "{{min}}人以上必要"
+    },
+    "finishedGame": {
+      "title": "ゲーム・オーバー",
+      "winnerMessage": "{{winner}}の勝ち!",
+      "clearMessage": "少ししたらこのゲームは自動にクリアーされます。"
+    },
+    "players": {
+      "title": "プレイヤー",
+      "nameLabel": "名前",
+      "removePlayer": "削除",
+      "you": "(あなた)",
+      "round": "ラウンド{{round}}",
+      "totalPoints": "合計{{points}}点"
+    },
+    "errors": {
+      "newGame": "ゲームを制作出来ませんでした",
+      "joinGame": "ゲームに参加出来ませんでした",
+      "removePlayer": "プレイヤーを削除出来ませんでした",
+      "startGame": "ゲームを開始出来ませんでした",
+      "selectDirection": "芳香の設定を出来ませんでした",
+      "roll": "プレイヤーを動けませんでした",
+      "handleTreasure": "アクションとれませんでした"
+    }
+  }
+}

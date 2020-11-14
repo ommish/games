@@ -1,0 +1,194 @@
+{
+  "i18nFeature": {
+    "selectLanguage": "Select Language",
+    "translate": "translate"
+  },
+  "game": {
+    "welcomeTitle": "Welcome!",
+    "welcomeMessage": "I made these web versions of board games that my family enjoys playing so we can continue to play together at a safe distance. Hope you enjoy!",
+    "newGame": "New Game",
+    "copyLink": "Copy link to game",
+    "joinGame": "Join",
+    "joinAsPlayer": "Join as this player",
+    "gameLink": "Game Link",
+    "goToGame": "Go to game",
+    "startNewGame": "Start a New Game",
+    "joinAGame": "Join a Game",
+    "goHome": "Home"
+  },
+  "validation": {
+    "fieldRequired": "This field is required",
+    "maxLengthExceeded": "Max length of {{max}} exceeded",
+    "maxExceeded": "Maximum {{max}}",
+    "minExceeded": "Minimum {{min}}",
+    "integerOnly": "Must be an integer"
+  },
+  "dixthis": {
+    "game": {
+      "title": "DixThis",
+      "details": "A web version of the game <1>Dixit</1>.",
+      "pointsToWin": "Points to win",
+      "pointsToWinInfo": "Optional- if none set, game will continue until cards run out",
+      "specialCardsInfo": "Set to 0 if you don't want my random photos mixed in with the deck",
+      "pg13Info": "Uncheck if you want to exclude 'scary' cards",
+      "untilDeckEmpty": "Until deck is empty",
+      "cardsRemaining": "Cards remaining",
+      "cardCount": "{{number}}",
+      "cardListPool": "Pool",
+      "cardListHand": "Hand",
+      "activeHint": "{{activePlayer}}'s hint",
+      "scoringInfo": "Active Player: \n0 points if no one guesses or everyone guesses correctly. 3 points if at least one player (but not all) guesses correctly.\nOther Players: 2 points for guessing correctly. 1 point for each player that guesses your card."
+    },
+    "inactiveGame": {
+      "title": "Game Inactive",
+      "startGame": "Start Game",
+      "waitingForPlayers": "Minimum {{min}} players required"
+    },
+    "finishedGame": {
+      "title": "Game Over!",
+      "clearMessage": "Game will automatically close in a few moments..."
+    },
+    "selectingHint": {
+      "activePlayerTitle": "Pick a card and enter a hint, {{playerName}}!",
+      "otherPlayerTitle": "Waiting for {{playerName}}'s hint",
+      "hintLabel": "Your hint",
+      "submit": "Submit"
+    },
+    "submittingCards": {
+      "submittingPlayersTitle": "Pick a card to match",
+      "otherPlayersTitle": "Waiting for players to submit their cards...",
+      "submit": "Submit",
+      "ownCardError": "Can't pick your own card!",
+      "submittedMessage": "Your card has been submitted!"
+    },
+    "guessingOriginal": {
+      "title": "Guess the original",
+      "submit": "Submit",
+      "submittedMessage": "Your guess has been submitted!",
+      "activePlayerMessage": "Waiting for players to guess..."
+    },
+    "revealingOriginal": {
+      "guessesTitle": "Guessed by:",
+      "cardPlayerLabel": "Played by {{player}}",
+      "nextRoundTime": "Next round in {{seconds}} seconds"
+    },
+    "players": {
+      "title": "Players",
+      "nameLabel": "Your Name",
+      "removePlayer": "Remove",
+      "you": "(you)",
+      "initialPointsLabel": "Starting Points",
+      "turnOrder": "Turn Order",
+      "pointsLabel": "Points"
+    },
+    "errors": {
+      "newGame": "Error setting up new game",
+      "joinGame": "Error joining game",
+      "removePlayer": "Error removing player",
+      "selectHint": "Error submitting your hint",
+      "submitCard": "Error submitting your card",
+      "startGame": "Error starting game"
+    },
+    "playerTitles": {
+      "presidentElect": "President Elect {{playerName}}",
+      "queen": "Queen {{playerName}}",
+      "terrible": "{{playerName}} the Terrible",
+      "twentyFourth": "{{playerName}} XXIV",
+      "prince": "Prince {{playerName}}",
+      "emperor": "Emperor {{playerName}}",
+      "conqueror": "{{playerName}} the Conqueror",
+      "unbroken": "{{playerName}} the Unbroken",
+      "lady": "Lady {{playerName}}",
+      "shire": "{{playerName}} of the Shire",
+      "newJersey": "{{playerName}}, the Pride of NJ",
+      "rulerOfGondor": "{{playerName}}, Ruler of Gondor",
+      "jediMaster": "Jedi Master {{playerName}}",
+      "cheeseEater": "{{playerName}}, Cheese Eater Extraordinaire",
+      "fartConnoisseur": "{{playerName}}, Fart Connoisseur",
+      "allNatural": "All Naturale {{playerName}}",
+      "firstOfHerName": "{{playerName}}, the First of Her Name",
+      "championOfSun": "{{playerName}}, Champion of the Sun",
+      "lil": "Lil' {{playerName}}",
+      "reverendDoctor": "The Rev. Dr. {{playerName}}",
+      "hufflepuff": "{{playerName}} of House Hufflepuff",
+      "goldMedalist": "0-time Olympic Gold Medalist {{playerName}}",
+      "blueEyesWhite": "Blue-Eyes White {{playerName}}",
+      "cantBelieve": "Can't Believe it's Not {{playerName}}!",
+      "hannahMontana": "#1 Hannah Montana Fan {{playerName}}",
+      "greatIni": "The Great {{playerName}}ini",
+      "thatsSo": "That's So {{playerName}}"
+    }
+  },
+  "desertAdventure": {
+    "game": {
+      "title": "Desert Adventure",
+      "details": "A web version of the game <1>Deep Sea Adventure</1>.",
+      "newGame": "New Game",
+      "copyLink": "Copy link to game",
+      "rounds": "Rounds",
+      "joinGame": "Join",
+      "joinAsPlayer": "Join as this player",
+      "gameLink": "Game Link",
+      "goToGame": "Go to game",
+      "startNewGame": "Start a New Game",
+      "joinAGame": "Join a Game",
+      "goHome": "Home"
+    },
+    "water": {
+      "title": "Remaining Water",
+      "round": "Round {{round}} of {{rounds}}"
+    },
+    "path": {
+      "oasis": "Oasis",
+      "pointRange": "{{min}}~{{max}} points"
+    },
+    "selectDirection": {
+      "label": "Which way are you going?",
+      "forward": "March on",
+      "backward": "Head back",
+      "submit": "Continue"
+    },
+    "rollDice": {
+      "title": "Roll your dice!",
+      "submit": "Continue",
+      "subtractTreasure": "Minus your treasure ({{treasureCount}})"
+    },
+    "handleSpace": {
+      "title": "What do you want to do?",
+      "takeTreasure": "Take treasure",
+      "takeTreasureTitle": "All yours...!",
+      "dropTreasure": "Drop treasure",
+      "dropTreasureTitle": "Pick one to say goodbye to",
+      "ignoreTreasure": "Just chill",
+      "ignoreTreasureTitle": "Sure you don't want to do anything?",
+      "submit": "Continue"
+    },
+    "inactiveGame": {
+      "title": "Game Inactive",
+      "startGame": "Start Game",
+      "waitingForPlayers": "Minimum {{min}} players required"
+    },
+    "finishedGame": {
+      "title": "Game Over!",
+      "winnerMessage": "{{winner}} is the winner!",
+      "clearMessage": "Game will automatically close in a few moments..."
+    },
+    "players": {
+      "title": "Players",
+      "nameLabel": "Your Name",
+      "removePlayer": "Remove",
+      "you": "(you)",
+      "round": "Round {{round}}",
+      "totalPoints": "Total {{points}} Points"
+    },
+    "errors": {
+      "newGame": "Error setting up new game",
+      "joinGame": "Error joining game",
+      "removePlayer": "Error removing player",
+      "startGame": "Error starting game",
+      "selectDirection": "Error setting direction",
+      "roll": "Error moving player",
+      "handleTreasure": "Error handling treasure action"
+    }
+  }
+}
