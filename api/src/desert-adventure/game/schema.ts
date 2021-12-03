@@ -1,5 +1,5 @@
 import * as z from 'zod';
-import { VALIDATION } from './constants';
+import { VALIDATION } from '../constants';
 
 export const playerName = z
   .string()

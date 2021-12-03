@@ -9,6 +9,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import { Routes as BrillianceRoutes } from './containers/Brilliance/Routes';
 import { Routes as DesertAdventureRoutes } from './containers/DesertAdventure/Routes';
 import { Routes as DixthisRoutes } from './containers/Dixthis/Routes';
 import { Footer } from './containers/Footer';
@@ -25,6 +26,7 @@ export function App() {
         <Switch>
           <Route path="/dixthis" component={DixthisRoutes} />
           <Route path="/desert-adventure" component={DesertAdventureRoutes} />
+          <Route path="/brilliance" component={BrillianceRoutes} />
           <Route exact path="/" component={GameList} />
           <Route path="/" render={() => <Redirect to="/" />} />
         </Switch>
@@ -33,6 +35,7 @@ export function App() {
         <Switch>
           <Route path="/dixthis" component={Footer} />
           <Route path="/desert-adventure" component={Footer} />
+          <Route path="/brilliance" component={Footer} />
           <Route path="/" component={Footer} />
         </Switch>
       </div>

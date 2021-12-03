@@ -190,5 +190,77 @@
       "roll": "プレイヤーを動けませんでした",
       "handleTreasure": "アクションとれませんでした"
     }
+  },
+  "brilliance": {
+    "game": {
+      "title": "砂漠探検",
+      "details": "<1>海底探検</1>のオンライン・バージョン。",
+      "newGame": "ゲーム・スタート",
+      "copyLink": "リンクをコピーする",
+      "rounds": "ラウンド数",
+      "joinGame": "参加する",
+      "joinAsPlayer": "このプレーヤとして参加する",
+      "gameLink": "リンク",
+      "goToGame": "ゲームへ",
+      "startNewGame": "新しいゲームを始める",
+      "joinAGame": "リンクでゲームを参加する",
+      "goHome": "ホームへ"
+    },
+    "water": {
+      "title": "残りの水",
+      "round": "{{rounds}}回のうちの第{{round}}回目"
+    },
+    "path": {
+      "oasis": "オアシス",
+      "pointRange": "{{min}}~{{max}}点"
+    },
+    "selectDirection": {
+      "label": "方向を選んで下さい",
+      "forward": "前に進む",
+      "backward": "戻る",
+      "submit": "オッケー"
+    },
+    "rollDice": {
+      "title": "サイコロを振って下さい",
+      "submit": "オッケー",
+      "subtractTreasure": "マイナスお宝物の数({{treasureCount}})"
+    },
+    "handleSpace": {
+      "title": "どうします？",
+      "takeTreasure": "宝物を拾う",
+      "takeTreasureTitle": "宝物を手に入れる！",
+      "dropTreasure": "宝物を捨てる",
+      "dropTreasureTitle": "どっちを捨てます？",
+      "ignoreTreasure": "何もしない",
+      "ignoreTreasureTitle": "本当に何増しなくていいんですか?",
+      "submit": "オッケー"
+    },
+    "inactiveGame": {
+      "title": "ゲーム・サスペンド",
+      "startGame": "スタート",
+      "waitingForPlayers": "{{min}}人以上必要"
+    },
+    "finishedGame": {
+      "title": "ゲーム・オーバー",
+      "winnerMessage": "{{winner}}の勝ち!",
+      "clearMessage": "少ししたらこのゲームは自動にクリアーされます。"
+    },
+    "players": {
+      "title": "プレイヤー",
+      "nameLabel": "名前",
+      "removePlayer": "削除",
+      "you": "(あなた)",
+      "round": "ラウンド{{round}}",
+      "totalPoints": "合計{{points}}点"
+    },
+    "errors": {
+      "newGame": "ゲームを制作出来ませんでした",
+      "joinGame": "ゲームに参加出来ませんでした",
+      "removePlayer": "プレイヤーを削除出来ませんでした",
+      "startGame": "ゲームを開始出来ませんでした",
+      "selectDirection": "芳香の設定を出来ませんでした",
+      "roll": "プレイヤーを動けませんでした",
+      "handleTreasure": "アクションとれませんでした"
+    }
   }
 }

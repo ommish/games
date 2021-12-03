@@ -1,3 +1,4 @@
+import { BrillianceState } from 'app/containers/Brilliance/types';
 import { DesertAdventureState } from 'app/containers/DesertAdventure/types';
 import { DixthisState } from 'app/containers/Dixthis/types';
 import { SnackbarState } from 'app/containers/Snackbar/types';
@@ -12,6 +13,7 @@ import { SnackbarState } from 'app/containers/Snackbar/types';
 export interface RootState {
   dixthis?: DixthisState;
   desertAdventure?: DesertAdventureState;
+  brilliance?: BrillianceState;
   snackbar?: SnackbarState;
   // [INSERT NEW REDUCER KEY ABOVE] < Needed for generating containers seamlessly
 }

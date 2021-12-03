@@ -8,7 +8,7 @@ import {
   HAND_SIZE,
   PG13_DECK,
   MIN_PLAYERS,
-} from './constants';
+} from '../constants';
 import { selectGame, selectOriginalCard, selectPlayer } from './state/selectors';
 import { shuffle } from 'lodash';
 import { store } from '../../state/store';

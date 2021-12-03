@@ -42,7 +42,7 @@ export const Game: React.FC = () => {
     });
     client.addEventListener('close', e => {
       dispatch(actions.receiveGame(null));
-      history.replace('/desert-adventure');
+      history.push('/desert-adventure');
     });
     return () => {
       client.close();

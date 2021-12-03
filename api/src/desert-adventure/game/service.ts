@@ -9,7 +9,7 @@ import {
 import { v4 } from 'uuid';
 import { random, shuffle } from 'lodash';
 import * as schema from './schema';
-import { MAX_PLAYERS, MIN_PLAYERS, STARTING_WATER } from './constants';
+import { MAX_PLAYERS, MIN_PLAYERS, STARTING_WATER } from '../constants';
 import { selectGame, selectPlayer } from './state/selectors';
 import { store } from '../../state/store';
 import * as actions from './state/actions';

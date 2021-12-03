@@ -20,6 +20,9 @@ export const GameList: React.FC = () => {
             {t(translations.desertAdventure.game.title)}
           </Link>
         </li>
+        <li>
+          <Link to="/brilliance">{t(translations.brilliance.game.title)}</Link>
+        </li>
       </ul>
     </div>
   );

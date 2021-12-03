@@ -2,7 +2,7 @@ import { random } from 'lodash';
 import produce from 'immer';
 import { findIndex, shuffle } from 'lodash';
 import { GameState } from '../../types';
-import { HAND_SIZE, MIN_PLAYERS, ROUND_WAIT } from '../constants';
+import { HAND_SIZE, MIN_PLAYERS, ROUND_WAIT } from '../../constants';
 import { getFirstPlayer, getNextPlayer } from './selectors';
 import { GameAction } from './actions';
 import { clearGame, startRound } from '../service';

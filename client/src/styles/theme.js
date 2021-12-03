@@ -25,6 +25,13 @@ module.exports = {
         main: '#EE6C4D',
         dark: '#EA481F',
       },
+      whiteAlpha: {
+        10: 'rgba(255, 255, 255, .10)',
+        20: 'rgba(255, 255, 255, .20)',
+        30: 'rgba(255, 255, 255, .30)',
+        50: 'rgba(255, 255, 255, .50)',
+        70: 'rgba(255, 255, 255, .70)',
+      },
     },
     dixthis: {
       primary: {
@@ -76,6 +83,32 @@ module.exports = {
         light: '#D26660',
         main: '#C94740',
         dark: '#AF3A31',
+      },
+    },
+    brilliance: {
+      primary: {
+        extraLight: '#FCB55F',
+        light: '#FB9A23',
+        main: '#F08605',
+        dark: '#DC7B04',
+      },
+      secondary: {
+        extraLight: '#BFD9CA',
+        light: '#99C2AB',
+        main: '#80B396',
+        dark: '#66A381',
+      },
+      grey: {
+        extraLight: '#83AAAF',
+        light: '#50767C',
+        main: '#385357',
+        dark: '#283B3E',
+      },
+      error: {
+        extraLight: '#E58E76',
+        light: '#DB6443',
+        main: '#CE4B27',
+        dark: '#BC4524',
       },
     },
   },

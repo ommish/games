@@ -11,6 +11,9 @@ function makeColors() {
   Object.keys(theme.colors.desert).forEach(group => {
     colors[`desert-${group}`] = theme.colors.desert[group];
   });
+  Object.keys(theme.colors.brilliance).forEach(group => {
+    colors[`brilliance-${group}`] = theme.colors.brilliance[group];
+  });
   return colors;
 }
 

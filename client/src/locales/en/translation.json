@@ -190,5 +190,89 @@
       "roll": "Error moving player",
       "handleTreasure": "Error handling treasure action"
     }
+  },
+  "brilliance": {
+    "game": {
+      "title": "Brilliance",
+      "details": "A web version of the game <1>Splendor</1>.",
+      "newGame": "New Game",
+      "copyLink": "Copy link to game",
+      "rounds": "Rounds",
+      "joinGame": "Join",
+      "joinAsPlayer": "Join as this player",
+      "gameLink": "Game Link",
+      "goToGame": "Go to game",
+      "startNewGame": "Start a New Game",
+      "joinAGame": "Join a Game",
+      "goHome": "Home"
+    },
+    "inactiveGame": {
+      "title": "Game Inactive",
+      "startGame": "Start Game",
+      "waitingForPlayers": "Minimum {{min}} players required"
+    },
+    "finishedGame": {
+      "title": "Game Over!",
+      "winnerMessage": "{{winner}} is the winner!",
+      "clearMessage": "Game will automatically close in a few moments..."
+    },
+    "players": {
+      "title": "Players",
+      "nameLabel": "Your Name",
+      "leave": "Leave",
+      "removePlayer": "Remove Player",
+      "you": "(you)",
+      "round": "Round {{round}}",
+      "totalPoints": "{{points}} Points"
+    },
+    "errors": {
+      "newGame": "Error setting up new game",
+      "joinGame": "Error joining game",
+      "removePlayer": "Error removing player",
+      "startGame": "Error starting game",
+      "turn": "Error taking turn action"
+    },
+    "tokens": {
+      "tokens": "Tokens",
+      "none": "No tokens",
+      "diamond": "Diamond",
+      "sapphire": "Sapphire",
+      "emerald": "Emerald",
+      "ruby": "Ruby",
+      "chocolate": "Chocolate",
+      "gold": "Gold"
+    },
+    "cards": {
+      "cards": "Cards",
+      "none": "No cards",
+      "level": "Level {{level}} ({{remaining}} remaining)"
+    },
+    "nobles": {
+      "nobles": "Nobles",
+      "none": "No nobles"
+    },
+    "reserve": {
+      "reserve": "Reserve",
+      "none": "No reserved cards"
+    },
+    "action": {
+      "selectAction": "Select your action",
+      "takeTokens": "Take tokens",
+      "purchaseCard": "Purchase card",
+      "reserveCard": "Reserve card",
+      "confirm": "Submit my turn"
+    },
+    "take-tokens": {
+      "draw": "Click the tokens you would like to take. Select one token from each of up to three different colors, or two tokens of the same color (so long as there are four or more).",
+      "discard": "You cannot end your turn with more then 10 tokens. Select the tokens you would like to discard."
+    },
+    "purchase-card": {
+      "card": "Select the card you would like to purchase, either from the board or from your reserved cards.",
+      "tokens": "Select the tokens you would like to spend to purchase the card."
+    },
+    "reserve-card": {
+      "card": "Select the card you would like to reserve from the board.",
+      "discard": "You cannot end your turn with more than 10 tokens. Select the token you would like to discard in exchange for a gold token, or refuse the gold token reward."
+    }
   }
 }

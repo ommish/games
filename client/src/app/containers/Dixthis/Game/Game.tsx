@@ -44,7 +44,7 @@ export const Game: React.FC = () => {
     });
     client.addEventListener('close', e => {
       dispatch(actions.receiveGame(null));
-      history.replace('/dixthis');
+      history.push('/dixthis');
     });
     return () => {
       client.close();

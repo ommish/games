@@ -63,6 +63,13 @@ a:hover {
   @apply text-xs;
 }
 
+.h-min {
+  height: min-content;
+}
+.w-min {
+  width: min-content;
+}
+
 /* Game specific */
 
 .dixthis {

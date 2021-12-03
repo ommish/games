@@ -1,6 +1,6 @@
 import { Draft } from 'immer';
 import { compact, findLastIndex, flattenDeep, shuffle } from 'lodash';
-import { CLOSE_WAIT, STARTING_WATER } from './constants';
+import { CLOSE_WAIT, STARTING_WATER } from '../constants';
 import { clearGame } from './service';
 import { GameState } from '../types';
 

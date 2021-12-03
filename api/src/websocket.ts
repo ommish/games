@@ -2,10 +2,12 @@ import { IncomingMessage } from 'http';
 import WebSocket from 'ws';
 import { selectGame as selectDixthis } from './dixthis/game/state/selectors';
 import { selectGame as selectDesertAdventure } from './desert-adventure/game/state/selectors';
+import { selectGame as selectBrilliance } from './brilliance/game/state/selectors';
 import { store } from './state/store';
 import { getGameId } from './util/getGameId';
 import { getLogger } from './util/logger';
 import { receiveSocket as receiveDixthisSocket } from './dixthis/websocket/state/actions';
+import { receiveSocket as receiveBrillianceSocket } from './brilliance/websocket/state/actions';
 import { receiveSocket as receiveDesertAdventureSocket } from './desert-adventure/websocket/state/actions';
 
 const log = getLogger('socket.service');
@@ -24,7 +26,9 @@ export function addWebsocketHanders(wss: WebSocket.Server) {
     const game =
       gameName === 'dixthis'
         ? selectDixthis(gameId)
-        : selectDesertAdventure(gameId);
+        : gameName === 'desert-adventure'
+        ? selectDesertAdventure(gameId)
+        : selectBrilliance(gameId);
 
     if (!game) {
       log.info(`${gameName} game ${gameId} not found; closing connection`);
@@ -34,7 +38,9 @@ export function addWebsocketHanders(wss: WebSocket.Server) {
     store.dispatch(
       gameName === 'dixthis'
         ? receiveDixthisSocket(gameId, socket)
-        : receiveDesertAdventureSocket(gameId, socket),
+        : gameName === 'desert-adventure'
+        ? receiveDesertAdventureSocket(gameId, socket)
+        : receiveBrillianceSocket(gameId, socket),
     );
     socket.send(JSON.stringify(game));
     socket.on('pong', heartbeat);

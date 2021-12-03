@@ -7,7 +7,7 @@ import {
 import produce from 'immer';
 import { findIndex, shuffle } from 'lodash';
 import { GameState } from '../../types';
-import { MIN_PLAYERS } from '../constants';
+import { MIN_PLAYERS } from '../../constants';
 import { GameAction } from './actions';
 import { getLogger } from '../../../util/logger';
 

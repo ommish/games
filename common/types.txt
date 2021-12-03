@@ -1,1 +1,1 @@
-export type GameName = 'dixthis' | 'desert-adventure';
+export type GameName = 'dixthis' | 'desert-adventure' | 'brilliance';
